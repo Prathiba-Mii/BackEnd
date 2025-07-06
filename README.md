@@ -1,64 +1,65 @@
-# Backend Projects - Node.js & Express
+# 🛠️ BackEnd Repository
 
-This repository contains multiple backend projects developed using **Node.js**, **Express**, and **EJS templating**. These projects are created as part of my learning journey and practice in building REST APIs, templating engines, and working with JSON data.
+This repository contains my backend development practice files and projects, including Node.js, Express.js, EJS, and RESTful APIs. Each folder represents a different topic or module I’ve worked on.
 
-## 📁 Projects Overview
+---
 
-### 1. Express js 02
-- A simple Express server.
-- Handles basic routing using `index.js`.
-- Demonstrates usage of `package.json` and `node_modules`.
+## 📁 Folder Overview
 
-### 2. Node EJS 03
-- Backend project using **EJS** as the templating engine.
-- Folder structure includes:
-  - `views/`: Contains EJS templates.
-  - `public/`: Static files (e.g., CSS, JS).
-  - `data.json`: Sample data used in rendering views.
-- Main server file: `index.js`.
+### 🔹 `Express js 02`
+Contains practice files for Express.js basics such as routing, middleware, and templating.
 
-### 3. Nodejs - 01
-- A basic Node.js project with multiple practice directories:
-  - `FigletDir`: Likely includes usage of the `figlet` module.
-  - `Fruits`: Possibly a small API or data handler for fruits.
-  - `MyProject`: General folder for custom Node.js projects.
-- Includes custom module: `math.js`.
+### 🔹 `Nodejs - 01`
+Covers the fundamentals of Node.js including file system, events, modules, and core concepts.
 
-## 🛠️ Tech Stack
+### 🔹 `Node EJS 03`
+Includes mini projects and examples using Node.js with EJS as the templating engine.
 
-- **Node.js**
-- **Express.js**
-- **EJS**
-- **JSON**
-- **VS Code** for development
+### 🔹 `Miscellaneous`
+Includes additional practice files and experiments done during the learning process.
+
+### 🔹 `REST_CLASS` ➕ **(New)**
+This folder contains my practice of **RESTful APIs** using Node.js and Express.  
+Topics covered:
+- CRUD operations (Create, Read, Update, Delete)
+- REST principles
+- JSON response handling
+- Routing and modular APIs
+- Basic error handling
+
+---
+
+## ✅ Tech Stack
+
+- Node.js
+- Express.js
+- EJS
+- REST API
+- JavaScript
+
+---
 
 ## 🚀 How to Run
 
-1. Clone this repo:
-    
-   git clone https://github.com/yourusername/backend-projects.git
-Navigate to a project folder:
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Prathiba-Mii/BackEnd.git
 
- 
-cd "Express js 02"
-Install dependencies:
+2. Navigate into a folder (e.g., REST_CLASS) and install dependencies:
+cd REST_CLASS
 npm install
 
-Start the server:
+
+3.Start the server:
 node index.js
-Repeat for other project folders like Node EJS 03 or Nodejs - 01.
+or
+nodemon index.js
 
-📚 What I Learned
-Setting up Express servers
 
-Serving static and dynamic content using EJS
+🌱 Author
+Prathiba Mii
+Learning backend development with hands-on practice using Node.js and Express.
 
-Using middleware and JSON handling
 
-Organizing multiple projects in a mono repo structure 
 
-📩 Feedback
-If you have any suggestions or want to collaborate, feel free to open an issue or reach out!
-
-Thank you for checking out my backend practice repo!
 
